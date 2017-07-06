@@ -1,0 +1,49 @@
+\documentclass[a4paper, 14pt, oneside]{report}
+% cirill, not work
+\usepackage[koi8-r]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{indentfirst}
+
+\begin{document}
+
+\rm
+	\title {Отчёт}
+	\author {Э.В. Кораблина, З.Е. Обоскалова}
+	\date {14  июля 2017 г.}
+	\maketitle 
+
+	
+%	
+	% оглавление
+
+\tableofcontents
+\newpage
+\begin{center}
+
+	Аннотация
+
+
+\end{center}
+
+\begin{normalsize}
+Разрежённый массив --- массив, в котором полезные данные(отличные от уникального значения) занимают малую часть от его реального размера.  Полезные данные хранятся в структуре индекс-значение,  для всех остальных элементов возвращается значение по умолчанию. Простейшая реализация этого массива выделяет место под весь массив, однако когда значений отличных от значений по умолчанию мало, такая реализация неэффективна. К этому массиву не применяются функции для работы с обычными массивами в тех случаях, когда о разрежённости известно заранее, например, при блочном хранении данных.
+	
+	
+\end{normalsize}
+
+\chapter{Qt}
+\label{ex: section1}
+
+\section{Введение}
+\label {ex: subsection2}
+\section{Проблема}
+\label {ex: subsection3}
+\section{Результаты}
+\label {ex: subsection4}
+\newpage
+\begin{normalsize}
+	\rm 
+	\Huge
+	Список литературы
+\end{normalsize} 
+\end{document}
